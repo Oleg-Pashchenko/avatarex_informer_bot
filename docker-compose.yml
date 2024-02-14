@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  informer_bot:
+    restart: always
+    build:
+      context: .
+
